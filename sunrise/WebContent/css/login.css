@@ -1,0 +1,41 @@
+/* ---------- GENERAL ---------- */
+
+body {
+    background: url(../public/imgs/bg11.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: white;
+}
+
+.logo {
+    margin: 40px auto;
+    display: block;
+    max-width: 50%;
+}
+
+.login-form {
+    /*background-color: green;*/
+}
+
+p {
+    text-align: center;
+}
+
+.forgot-form {
+    /*background-color: #e74c3c;*/
+}
+
+#SendLogin {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 110px;
+}
+
+#SendForgot {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 110px;
+}

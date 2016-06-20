@@ -1,0 +1,168 @@
+
+
+/****************START OWN CSS*********************************/
+
+
+/**LEFT BAR***************************************/
+
+.cardinfo{
+    width: 100%;
+    height: 400px;
+    position: fixed;
+    background-color: #043D5D;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 30px;
+    overflow: hidden;
+    color:white;
+
+}
+
+.cardinfo h1{
+    /*color: white;*/
+    position: relative;
+    top: 176px;
+
+}
+
+.profilepic{
+    position: absolute;
+    top: 18px;
+    left: 85px;
+    border-radius: 100%;
+}
+
+.info{
+    background-color: #23B684;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 286px;
+}
+
+
+
+.info .item1{
+    display: block;
+    /*background-color: red;*/
+    width: 33%;
+    float: left;
+    height: 114px;
+}
+
+
+.info .item1 i{
+    font-size: 40px;
+    margin: 0 35%;
+}
+
+.info .item1 p{
+    font-size: 21px;
+    margin: 0 35%;
+}
+
+.info .item1 label{
+    font-size: 20px;
+    margin: 0px 16%;
+}
+
+
+
+
+.info .item2{
+    display: block;
+    /*background-color: black;*/
+    float: left;
+    width: 33%;
+    height: 100%;
+
+}
+
+
+.info .item2 i{
+    font-size: 40px;
+    margin: 0 35%;
+}
+
+.info .item2 p{
+   font-size: 21px;
+    margin: 0 35%;
+}
+
+.info .item2 label{
+     font-size: 18px;
+    margin: 0px 20%;
+}
+
+
+
+
+.info .item3{
+    display: block;
+    /*background-color: burlywood;*/
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+
+
+.info .item3 i{
+    font-size: 40px;
+    margin: 0 35%;
+}
+
+.info .item3 p{
+    font-size: 21px;
+    margin: 0px 43%;
+}
+
+.info .item3 label{
+    font-size: 20px;
+    margin: 0px 20%;
+}
+
+
+
+
+.MainFolder{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 400px;
+    background-color: #222D31;
+    bottom: 0;
+    margin: 0;
+    padding: 30px;
+    overflow: auto;
+}
+
+.cd-accordion-menu .has-children label{
+    margin-bottom: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************END LEFT BAR *****************************/
+
+
+
+
+/****************END OWN CSS********************/
+
+

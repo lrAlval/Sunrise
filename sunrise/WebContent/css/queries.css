@@ -1,0 +1,228 @@
+/* Large desktops and laptops */
+
+@media (min-width: 1600px) {
+    body::before {
+        content: "Big as Shit desktops and laptops ( > 1600px) fired";
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        background: purple;
+        /* Semi-transparent yellow */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+    /*From Home*/
+    .PanelUsuario {
+        width: 400px !important;
+        ;
+    }
+    /*From Login*/
+    .logo {
+        height: 180px;
+    }
+    /*From Login*/
+    .login-form , .forgot-form{
+        /*background-color: green;*/
+        width: 50%;
+        margin: 0 auto;
+    }
+
+   
+}
+
+
+/* Large desktops and laptops */
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+    body::before {
+        content: "Large desktops and laptops (1200px > 1599px) fired";
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        background: #C54D57;
+        /* Semi-transparent yellow */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+    /*From Home*/
+    .PanelUsuario {
+        width: 400px !important;
+        ;
+    }
+    /*From Login*/
+    .logo {
+        height: 180px;
+    }
+
+        /*From Login*/
+    .login-form , .forgot-form {
+        /*background-color: green;*/
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+
+/* Landscape tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    body::before {
+        content: "Landscape tablets and medium desktops (992px > 1199px) fired";
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        background: yellow;
+        /* Semi-transparent yellow */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+    /*From Home*/
+    .PanelUsuario {
+        width: 400px !important;
+        ;
+    }
+    /*From Login*/
+    .logo {
+        height: 180px;
+    }
+        /*From Login*/
+    .login-form , .forgot-form{
+        /*background-color: green;*/
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+
+/* Portrait tablets and small desktops */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body::before {
+        content: "Portrait tablets and small desktops (768px > 991px) fired";
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        background: #C7F465;
+        /* Semi-transparent yellow */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+    /*From Home*/
+    .PanelUsuario {
+        width: 400px !important;
+        ;
+    }
+    .LeftPanel .button {
+        margin-bottom: 10px;
+    }
+    /*From Login*/
+    .logo {
+        height: 180px;
+    }
+        /*From Login*/
+    .login-form , .forgot-form {
+        /*background-color: green;*/
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+    body::before {
+        content: "Landscape phones and portrait tablets (767px) fired";
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        background: #16a085;
+        /* Semi-transparent yellow */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+    /*From Home*/
+    .PanelUsuario {
+        width: 400px !important;
+        
+    }
+    /*From Contactenos*/
+    .RigthPanel {
+        height: initial !important;
+        margin-top: 10px;
+        padding: 6px 5px;
+    }
+    .LeftPanel .button {
+        margin-bottom: 10px;
+    }
+    .LeftPanel {
+        height: initial !important;
+    }
+
+    /*From Login*/
+    .login-form , .forgot-form {
+       /* background-color: #16a085 !important;*/
+        width: auto;
+        margin: 0;
+    }
+}
+
+
+/* Portrait phones and smaller */
+
+@media (max-width: 480px) {
+    body::before {
+        content: "Portrait phones and smaller (480px) fired";
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        background: #4ECDC4;
+        /* Semi-transparent yellow */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+    /*From Home*/
+    .PanelUsuario {
+        width: 100% !important;
+        ;
+    }
+    /*From Contactenos*/
+    .RigthPanel {
+        height: initial !important;
+        margin-top: 10px;
+        padding: 6px 5px;
+    }
+    .LeftPanel {
+        height: initial !important;
+    }
+    .LeftPanel .button {
+        margin-bottom: 10px;
+        margin-left: 30%;
+    }
+    
+        /*From Login*/
+    .login-form , .forgot-form{
+        width: auto;
+        margin: 0;
+    }
+
+
+}

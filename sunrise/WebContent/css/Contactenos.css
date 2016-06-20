@@ -1,0 +1,85 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  background-color: #F0F1F5 !important;
+}
+
+
+.Wrapper{
+	background-color: white;
+	border-radius: 6px;
+	position: absolute;
+	top: 1%;
+    left: 1%;
+    height: 95%;
+    width: 98%;
+}
+
+
+.LeftPanel{
+   background-color: #FFFFFF;
+   border-radius: 5px;
+   height: 100%;
+}
+
+
+.RigthPanel{
+	background-color: #F7F5F6;
+	border-radius: 5px;
+	height: 100%;
+	
+}
+
+
+
+
+.DesktopPanel{
+	padding-top: 30%;
+}
+
+.DesktopPanel label{
+	margin-left: 10px;
+	color: #3498db;
+	
+}
+
+
+
+
+.DesktopPanel p{
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+
+.movPanel{
+	font-size: 80%;
+}
+
+
+.social{
+
+	font-size: 29px;
+    margin-top: 18%;
+    margin-left: 5%;
+    letter-spacing: 20px
+}
+
+
+
+
+
+.button {
+      display: inline-block;
+      position: relative;
+      width: 120px;
+      height: 32px;
+      line-height: 32px;
+      border-radius: 2px;
+      font-size: 0.9em;
+	  text-align: center;
+      background-color: #3498db;
+      color: #646464;
+      margin-left: 70%;
+
+}
