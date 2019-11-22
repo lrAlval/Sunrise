@@ -23,7 +23,7 @@
 
 
     <!-- Axios  -->
-    <script src="https://npmcdn.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="../libs/main/js/jquery-2.2.4.min.js"></script>
     <script src="../js/LeftPanel.js"></script>
     <script src="../js/Main.js"></script>
